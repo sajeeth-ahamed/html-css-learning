@@ -1,95 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
- <style>
-    html{
-      font-size: 25px;
-    }
+    <style>
+      html {
+        font-size: 25px;
+      }
 
-    body{
-      background-color: #333;
-      color: whitesmoke;
-    }
+      body {
+        background-color: #333;
+        color: whitesmoke;
+      }
 
-    a{
-      color: aliceblue;
-    }
+      a {
+        color: aliceblue;
+      }
 
-    a:visited{
-      color: lightgray;
-    }
+      a:visited {
+        color: lightgray;
+      }
 
-    a:hover{
-      color: #eee;
-    }
+      a:hover {
+        color: #eee;
+      }
+    </style>
 
-  </style>
+    <title>simple-form</title>
+  </head>
+  <body>
+    <a href="practice-file.html">Home</a>
+    <br />
+    <nav>
+      <!--<form action = "website.sebserver method = get>"-->
+      <form>
+        <p>
+          <label for="fullname">Full Name</label><br />
 
-  <title>simple-form</title>
-</head>
-<body>
-  <a href = "practice-file.html">Home</a>
-  <br>
-  <div>
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Enter Your Full Name"
+            autocomplete="on"
+            required
+            autofocus
+          />
+        </p>
 
-    <form>
-      <label for = "fullname">Full Name</label><br>
-      
-      <input type = "text" id = "fullname"><br><br>
-      
-      <label for = "username">Username</label><br>
-      
-      <input type = "text" id = "username"><br><br>
-      
-      <label for = "about">About You</label><br>
-      <textarea id = "about"> </textarea><br><br>
+        <p>
+          <label for="username">Username</label><br />
 
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter Your Username"
+            autocomplete="on"
+            required
+          />
+        </p>
 
-      <label for = "country">Country</label><br>
-      <select id = "country">
+        <p>
+          <label for="about">About You</label><br />
+          <textarea id="about"> </textarea>
+        </p>
 
-        <option value = "sri lanka">Sri Lanka</option>
-        <option value = "india">India</option>
-        <option value = "usa">USA</option>
+        <p>
+          <label for="country">Country</label><br />
+          <select id="country">
+            <option value="sri lanka">Sri Lanka</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+          </select>
+        </p>
 
-      </select><br><br>
+        <p>
+          <label for="phone">Contact Number</label><br />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="111111111"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+            required
+          />
+        </p>
 
-      <label>Job Type</label><br>
-      <input type = "radio" name = "jobtype" value = "parttime" id = parttime>
-      <label for = "parttime">Part Time</label>
-      <br>
-      <input type = "radio" name = "jobtype" value = "fultime" id = "fulltime">
-      <label for = "fulltime">Full Time</label>
-      <br>
-      <br>
+        <p>
+          <label>Job Type</label><br />
+          <input type="radio" name="jobtype" value="parttime" id="parttime" />
+          <label for="parttime">Part Time</label><br />
+          <input type="radio" name="jobtype" value="fultime" id="fulltime" />
+          <label for="fulltime">Full Time</label>
+        </p>
 
-       <label>Skills</label><br>
-      <input type = "checkbox" name = "skills" value = "programming" id = "programming">
-      <label for = "programming">Programming</label>
-      <br>
-      <input type = "checkbox" name = "skills" value = "cloud" id = "cloud">
-      <label for = "cloud">Cloud</label>
-      <br>
-      <input type = "checkbox" name = "skills" value = "networking" id = "networking">
-      <label for = "networking">Computer Network</label>
-      <br>
-      <input type = "checkbox" name = "skills" value = "probsol" id = "probsol">
-      <label for = "probsol">Problem Solving</label>
-      <br><br>
+        <p>
+          <label>Skills</label><br />
+          <input
+            type="checkbox"
+            name="skills"
+            value="programming"
+            id="programming"
+          />
+          <label for="programming">Programming</label>
+          <br />
+          <input type="checkbox" name="skills" value="cloud" id="cloud" />
+          <label for="cloud">Cloud</label>
+          <br />
+          <input
+            type="checkbox"
+            name="skills"
+            value="networking"
+            id="networking"
+          />
+          <label for="networking">Computer Network</label>
+          <br />
+          <input type="checkbox" name="skills" value="probsol" id="probsol" />
+          <label for="probsol">Problem Solving</label>
+        </p>
 
-      <button>Submit</button>
-      
-
-
-
-
-    </form>
-
-
-  </div>
-</body>
+        <p>
+          <button>Submit</button>
+        </p>
+      </form>
+    </nav>
+  </body>
 </html>
