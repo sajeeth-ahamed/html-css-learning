@@ -20,15 +20,15 @@
         <nav>
           <ul>
             <li>
-              <a href="/">Home </a>
+              <a href="index.html">Home </a>
             </li>
 
             <li>
-              <a href="/#aboutscs">About SCS</a>
+              <a href="index.html#aboutscs">About SCS</a>
             </li>
 
             <li>
-              <a href="/#ourmenu">Our Menu</a>
+              <a href="index.html#ourmenu">Our Menu</a>
             </li>
 
             <li>
@@ -53,6 +53,33 @@
       <main>
         <section id="contactform">
           <h2>Our Contact Form</h2>
+          <fieldset>
+            <legend>Send Us Your Feedback</legend>
+            <p>
+              <label for="ame">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </p>
+
+            <p>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </p>
+            <p>
+              <label for="feedback">Your Feedback:</label><br />
+              <textarea id="feedback" placeholder="Type your feedback">
+              </textarea>
+            </p>
+          </fieldset>
         </section>
       </main>
     </div>
