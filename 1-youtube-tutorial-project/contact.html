@@ -52,34 +52,56 @@
 
       <main>
         <section id="contactform">
-          <h2>Our Contact Form</h2>
-          <fieldset>
-            <legend>Send Us Your Feedback</legend>
-            <p>
-              <label for="ame">Name</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Enter your name"
-              />
-            </p>
+          <h2>SCS Contact Form</h2>
+          <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+              <legend>Send Us Your Feedback</legend>
+              <p>
+                <label for="ame">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </p>
 
-            <p>
-              <label for="email">Email</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your email"
-              />
-            </p>
-            <p>
-              <label for="feedback">Your Feedback:</label><br />
-              <textarea id="feedback" placeholder="Type your feedback">
-              </textarea>
-            </p>
-          </fieldset>
+              <p>
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </p>
+              <p>
+                <label for="feedback">Your Feedback:</label><br />
+                <textarea
+                  id="feedback"
+                  placeholder="Type your feedback"
+                  cols="27"
+                  rows="14"
+                >
+                </textarea>
+              </p>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+        </section>
+        <section>
+          <h2>Our Location</h2>
+          <address>
+            No.1234, Cookies Street,<br />
+            Cookie Town (PC: xx1234xx) <br />
+            Sri Lanka.
+            <br />
+            <br />
+            Phone: <a href="tel: +0000123446">000-012-3446</a>
+          </address>
         </section>
       </main>
     </div>
