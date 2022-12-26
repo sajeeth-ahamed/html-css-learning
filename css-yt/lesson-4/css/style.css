@@ -8,10 +8,13 @@ h1 {
   width: 25%;
   font-size: 4rem;
   padding: 0.4em;
+  background-color: #000;
+  color: #0f0;
 }
 
 h2 {
   font-size: 2.5rem;
+  color: goldenrod;
 }
 
 body {
@@ -21,4 +24,5 @@ body {
 p {
   font-size: 1.5rem;
   width: 60ch;
+  color: dimgrey;
 }
