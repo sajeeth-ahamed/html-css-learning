@@ -11,7 +11,7 @@ header {
 }
 
 .container {
-  border: 2px outset orchid;
+  border: 6px outset orchid;
   font-size: 1.5rem;
   margin: 1.5rem 2rem;
   /*  margin-top: 1.5rem;
@@ -19,4 +19,6 @@ header {
   margin-bottom: 1.5rem;
   margin-left: 2rem; */
   padding: 1.5rem 2rem;
+  outline: 4px solid slateblue;
+  outline-offset: 4px;
 }
