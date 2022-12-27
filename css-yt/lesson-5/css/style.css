@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-h1 {
-  border: 2px dashed orchid;
-  width: 25%;
-  font-size: 3rem;
-  padding: 0.5em;
+header {
+  border: 1.8px dashed orchid;
+  width: 400px;
+  padding: 1.5rem;
 }
