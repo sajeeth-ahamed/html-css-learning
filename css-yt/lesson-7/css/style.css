@@ -7,5 +7,17 @@ body {
 a {
   text-decoration: underline;
   cursor: pointer;
-  color: aquamarine;
+  color: darkblue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+a:active {
+  color: red;
 }
