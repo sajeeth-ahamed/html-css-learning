@@ -7,7 +7,7 @@ body {
 a {
   text-decoration: underline;
   cursor: pointer;
-  color: darkblue;
+  color: hsl(225, 41%, 59%);
 }
 
 a:visited {
@@ -16,7 +16,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: dodgerblue;
+  color: hsl(225, 41%, 59%, 0.75);
 }
 
 a:active {
