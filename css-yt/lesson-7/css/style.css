@@ -2,6 +2,7 @@ body {
   padding: 15%;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: indigo;
 }
 
 a {
@@ -17,6 +18,7 @@ a:visited {
 a:hover,
 a:focus {
   color: hsl(225, 41%, 59%, 0.75);
+  background: darkgray;
 }
 
 a:active {
