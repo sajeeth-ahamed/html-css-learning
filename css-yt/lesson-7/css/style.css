@@ -14,7 +14,8 @@ a:visited {
   color: purple;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: dodgerblue;
 }
 
