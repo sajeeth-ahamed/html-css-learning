@@ -18,3 +18,11 @@ ul {
   */
   line-height: 1.5;
 }
+
+ol li {
+  color: darkslategrey;
+}
+
+ul li:nth-child(2) {
+  color: red;
+}
