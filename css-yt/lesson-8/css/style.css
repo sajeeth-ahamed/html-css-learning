@@ -14,7 +14,7 @@ ul {
   /*list-style-image: url("../");
     list-style: square url("../");
     text-align: center;
-    inside
+    list-style-position: inside;
   */
   line-height: 1.5;
 }
@@ -25,4 +25,11 @@ ol li {
 
 ul li:nth-child(2) {
   color: red;
+}
+
+ul ::marker {
+  color: darkred;
+  font-family: fantasy;
+  font-size: 1.5rem;
+  content: "only for $1.99 >> ";
 }
