@@ -7,3 +7,14 @@ body {
 ol {
   list-style-type: lower-greek;
 }
+
+ul {
+  list-style-type: square;
+  color: darkblue;
+  /*list-style-image: url("../");
+    list-style: square url("../");
+    text-align: center;
+    inside
+  */
+  line-height: 1.5;
+}
