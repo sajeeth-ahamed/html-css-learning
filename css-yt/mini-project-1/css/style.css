@@ -49,3 +49,7 @@ li a:focus {
   color: whitesmoke;
   cursor: pointer;
 }
+
+li:last-child a {
+  border-radius: 0 0 2rem 2rem;
+}
