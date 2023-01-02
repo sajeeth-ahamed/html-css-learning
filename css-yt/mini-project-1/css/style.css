@@ -18,3 +18,9 @@ nav {
   font-size: 4rem;
   line-height: 6rem;
 }
+
+h2 {
+  padding: 1rem;
+  background: darkcyan;
+  border-radius: 2rem 2rem 0 0;
+}
