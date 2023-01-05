@@ -6,3 +6,10 @@ body {
 p {
   background-color: darkslateblue;
 }
+
+.opposite {
+  display: block;
+  background-color: #332;
+  color: whitesmoke;
+  padding: 2rem;
+}
