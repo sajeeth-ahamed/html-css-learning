@@ -28,3 +28,8 @@ ul {
   background-color: #332;
   margin: 0;
 }
+
+li {
+  display: inline-block;
+  margin-inline: 0.6rem;
+}
