@@ -10,3 +10,7 @@ body {
   color: #fff;
   padding: 1rem;
 }
+
+.left {
+  float: left;
+}
